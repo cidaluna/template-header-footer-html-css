@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  a{
+    
+    color:#fff;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+  }
+
+  p {
+    font-family: sans-serif;
+    text-decoration: none; /* remove sublinhado padrao */
+  }
+  
+  header{
+    background-color: #0026ad;
+
+  }
+  
+  header p{
+    font-size: 16px;
+  }
+  
+  nav{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+  
+  .nav-list li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    font-size: 18px;
+  }
+
+  main{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: calc(100vh - 75.6px - 58px);
+  }
+
+  article{
+    background-color: red;
+    padding:20px;
+    margin-bottom: 20px;
+    border-radius:5px;
+  }
+
+  article:last-child{
+    margin-bottom: 0;
+  }
+
+  article h3{
+    margin: 10px 0 25px 0;
+    line-height: 24px;
+  }
+
+  article p{
+    margin-top: 16px;
+    line-height: 24px;
+  }
+
+  footer{
+    background-color: #0026ad;
+    color: #fff;
+    padding: 24px 0px;
+  }
+
+  footer .rodape{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .rodape p { 
+    display: flex;
+    padding-left: 24px;
+    font-size: 16px;
+  }
+
+
+  @media (max-width: 800px) {  /* quando a tela for menor do que 800 pixels */
+    nav{
+      width: 90vw;
+      display: flex;
+      margin: 0 auto;
+      justify-content: start; /* posiciona no inicio */
+    }
+}
