@@ -21,7 +21,8 @@
   
   header{
     background-color: #0026ad;
-
+    max-height: 92px;
+    margin: 0 auto;
   }
   
   header p{
@@ -50,12 +51,12 @@
   main{
     width: 90vw;
     margin: 0 auto;
-    padding: 30px 20px;
-    min-height: calc(100vh - 75.6px - 58px);
+    padding: 30px 20px 14px 20px;
+    min-height: calc(100vh - 92px - 66px);
   }
 
   article{
-    background-color: red;
+    background-color: rgb(251, 255, 129);
     padding:20px;
     margin-bottom: 20px;
     border-radius:5px;
@@ -79,6 +80,7 @@
     background-color: #0026ad;
     color: #fff;
     padding: 24px 0px;
+    max-height: 66px;
   }
 
   footer .rodape{
