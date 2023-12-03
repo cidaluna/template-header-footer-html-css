@@ -21,8 +21,18 @@
   
   header{
     background-color: #0026ad;
-    max-height: 92px;
+    height: 92px;
     margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   
   header p{
@@ -34,7 +44,6 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 32px;
   }
 
   .nav-list {
@@ -49,10 +58,15 @@
   }
 
   main{
-    width: 90vw;
+    width: 1200px;
     margin: 0 auto;
     padding: 30px 20px 14px 20px;
     min-height: calc(100vh - 92px - 66px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+    margin-top: 100px; /* Adiciona espaço extra para compensar a altura do header */
   }
 
   article{
@@ -75,6 +89,32 @@
     margin-top: 16px;
     line-height: 24px;
   }
+
+  .card {
+    width: 220px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+    transition: transform 0.3s ease-in-out;
+  }
+
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.card-footer {
+  color: #888;
+  font-size: 0.8em;
+}
 
   footer{
     background-color: #0026ad;
@@ -104,4 +144,8 @@
       margin: 0 auto;
       justify-content: start; /* posiciona no inicio */
     }
+
+    .card {
+      width: 100%;
+  }
 }
