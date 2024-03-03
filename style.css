@@ -8,10 +8,13 @@
     
     color:#fff;
   }
-  
+
   body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   p {
@@ -92,6 +95,7 @@
 
   .card {
     width: 220px;
+    height: fit-content;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -117,6 +121,7 @@
 }
 
   footer{
+    margin-top: auto;
     background-color: #0026ad;
     color: #fff;
     padding: 24px 0px;
