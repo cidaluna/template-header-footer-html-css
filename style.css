@@ -58,9 +58,9 @@
   }
 
   main{
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
-    padding: 30px 20px 14px 20px;
+    padding: 25px 20px 14px 20px;
     min-height: calc(100vh - 92px - 66px);
     display: flex;
     flex-wrap: wrap;
@@ -145,7 +145,13 @@
       justify-content: start; /* posiciona no inicio */
     }
 
+    main{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     .card {
       width: 100%;
-  }
+    }
 }
